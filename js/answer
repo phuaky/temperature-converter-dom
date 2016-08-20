@@ -1,0 +1,13 @@
+function processForm ( {
+  for (var 1=0; i < document.tempForm.choice.length; i++) {
+    if (document.tempForm.choice[i].checked) {
+      tempType = document.tempForm.choice[i].value;
+
+    }
+  }
+})
+
+if (tempType == 'farenheit') {
+  result = temperature * 9/5 + 32
+  
+}
